@@ -318,7 +318,9 @@ footer {
 }
 
 .subscribes {
-    background-image: url("img/footer_bck.jpg");
+    background: url(img/footer_bck_small.jpg); 
+    background-size: cover; 
+    background-position: center;
 }
 
 .subscribes_bck {
@@ -449,7 +451,7 @@ footer {
     fill: #FFFFFF;
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
+@media{
     .container {
         max-width: 768px;
     }
@@ -537,7 +539,7 @@ footer {
     }
 }
 
-@media (max-width: 767px) {
+@media{
     .container {
         max-width: 375px;
     }
@@ -697,7 +699,7 @@ footer {
 
 }
 
-@media (max-width: 320px) {
+@media{
     .top__cards{
         grid-template-columns: 320px;
     }
